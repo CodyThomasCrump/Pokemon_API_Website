@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pokemon API Site</title>
+    <title>Pokémon API Site</title>
 
     <!-- Link the Bootstrap CSS -->
     <link rel="stylesheet" href="../bootstrap-4.3.1-dist/css/bootstrap.css">
@@ -15,6 +15,35 @@
 </head>
 
 <body>
+
+    <!--  -->
+    <nav class="navbar navbar-light" style="background-color: #ef5350;">
+        <!-- Brand -->
+        <span class="navbar-brand mb-0 h1">Pokédex</span>
+    
+
+    <!-- Search Bar + Search Button -->
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Enter ID/Name">
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+
+    <!-- Pokemon Card -->
+    <div id="pokemonInfoCard" class="card text-center" style="width: 18rem;">
+        <!-- Pokemon Image -->
+        <img src="..." class="card-img-top" alt="...">
+        <!-- Pokemon Name -->
+        <div class="card-body">
+            <h5 class="card-title">Pokémon Name</h5>
+        </div>
+        <!-- List of Pokemon Information -->
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Info 1</li>
+            <li class="list-group-item">Info 2</li>
+            <li class="list-group-item">Info 3</li>
+        </ul>
+    </div>
 
     <!-- Link jQuery, Popper.js, and the Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
