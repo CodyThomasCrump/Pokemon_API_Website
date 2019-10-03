@@ -1,4 +1,4 @@
-//bJQuery function to make sure no code is run until the HTML is fully loaded
+// JQuery function to make sure no code is run until the HTML is fully loaded
 $(function () {
     // When the page loads, the Pokemon info card should be hidden by default
     $("#pokemonInfoCard").hide();
